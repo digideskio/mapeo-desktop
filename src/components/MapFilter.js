@@ -222,7 +222,7 @@ class Home extends React.Component {
           datasetName='mapeo'
           resizer={resizer}
           appBarMenuItems={appBarMenuItems}
-          appBarTitle='Mapeo' />
+          appBarTitle={toolbarTitle} />
 
         <ConvertDialog
           open={showModal === 'convert'}
